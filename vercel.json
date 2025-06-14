@@ -13,8 +13,7 @@
     }
   ],
   "env": {
-    "OPENAI_API_KEY": "@openai-api-key",
-    "OPENAI_BASE_URL": "@openai-base-url",
-    "GOOGLE_API_KEY": "@google-api-key"
+    "OPENAI_API_KEY": "@OPENAI_API_KEY",
+    "OPENAI_BASE_URL": "@OPENAI_BASE_URL",
   }
 }
