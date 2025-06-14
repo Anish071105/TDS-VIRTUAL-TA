@@ -1,19 +1,9 @@
 {
   "version": 2,
   "builds": [
-    {
-      "src": "answer1.py",
-      "use": "@vercel/python"
-    }
+    { "src": "api/index.py", "use": "@vercel/python" }
   ],
   "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "answer1.py"
-    }
-  ],
-  "env": {
-    "OPENAI_API_KEY": "@OPENAI_API_KEY",
-    "OPENAI_BASE_URL": "@OPENAI_BASE_URL",
-  }
+    { "src": "/(.*)", "dest": "api/index.py" }
+  ]
 }
