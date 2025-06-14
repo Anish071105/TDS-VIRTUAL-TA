@@ -1,11 +1,9 @@
 fastapi
 uvicorn
 openai
-google-generativeai
-asyncio
 numpy
+asyncio
 requests
 beautifulsoup4
 playwright
 pydantic
-scikit-learn
