@@ -4,6 +4,4 @@ openai
 numpy
 asyncio
 requests
-beautifulsoup4
-playwright
 pydantic
